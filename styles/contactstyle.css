@@ -1,0 +1,49 @@
+.header{
+    min-height: 50vh;
+    background: linear-gradient(transparent ,transparent, #040F11),url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contact-form{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+    color: #fff;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    align-items: center;
+}
+#form input, #form textarea{
+    width: 90%;
+    margin: auto;
+    padding: 15px 25px;
+    margin: 10px 0;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #0C2E33;
+    color: #fff;
+    font-size: 1.1em;
+    transition: 1s;
+}
+
+#form button{
+    text-align: center;
+    border: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.1em;
+}
+
+#form button:hover{
+    background: #fff;
+    cursor: pointer;
+    color: #0C2E33;
+    transition: 1s;
+}
