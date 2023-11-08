@@ -1,13 +1,13 @@
-const closenav = document.getElementById('closeNav')
-const opennav = document.getElementById('openNav')
+const formsubmitbtn = document.getElementById('formsubmitbtn')
 const linksmenu = document.getElementById('linksmenu')
-const vanishsound = new Audio('./audio/vanish.mp3')
 const contactl1 = document.getElementById('contactl1')
 const contactl2 = document.getElementById('contactl2')
 const contactl3 = document.getElementById('contactl3')
 const contactl4 = document.getElementById('contactl4')
 const contactl5 = document.getElementById('contactl5')
-const formsubmitbtn = document.getElementById('formsubmitbtn')
+const closenav = document.getElementById('closeNav')
+const vanishsound = new Audio('./audio/vanish.mp3')
+const opennav = document.getElementById('openNav')
 
 opennav.addEventListener('click',()=>{
     linksmenu.classList.add('activenav')
