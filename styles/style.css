@@ -218,8 +218,9 @@ nav .fa {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #0C2E33;
+    background: transparent;
     color: #fff;
+    padding-bottom: 30px;
 }
 
 .contact-links{
