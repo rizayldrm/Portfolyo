@@ -36,16 +36,18 @@
         <h1>İletişim</h1>
     </section>
     <section id="contact-form">
-        <form action="#" id="form">
+        <form action="https://api.web3forms.com/submit" id="form" method="post">
+            <input type="hidden" name="access_key" value="3b0105a8-5531-4159-a22f-4338612e0bc9">
+
             <label>İsim ve Soyİsim</label>
-            <input type="text" required>
+            <input type="text" name="name" required>
             <label>E-Posta</label>
-            <input type="email" required>
-            <label>Telefon Numarası</label>
-            <input type="number" required>
+            <input type="email" name="email" required>
+            <!--<label>Telefon Numarası</label>
+            <input type="number" required> -->
             <label>Bir Mesaj Bırak</label>
             <textarea rows="4"  required></textarea>
-            <button type="submit" id="formsubmitbtn" onclick="icantbackend()">Gönder</button>
+            <button type="submit" id="formsubmitbtn">Gönder</button>
         </form>
     </section>
 

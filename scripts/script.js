@@ -35,6 +35,3 @@ function opendclink() {
 function opengitlink() {
     window.open('https://github.com/rizayldrm')
 }
-function icantbackend() {
-    formsubmitbtn.innerHTML = 'Hala veritabanı kuramıyom 😭'
-}
